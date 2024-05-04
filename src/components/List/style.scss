@@ -1,0 +1,23 @@
+.list{
+  
+ .btn-item{
+   height: 30px;
+   
+ }
+  &::-webkit-scrollbar {
+      border-radius: 10px;
+    width: 15px;
+    
+    
+    background-color: #838389;
+    }
+    &::-webkit-scrollbar-thumb{
+     
+    height: 50px;
+    background-color: #1c2125;
+      border-radius: 5px;
+
+    }
+}
+
+

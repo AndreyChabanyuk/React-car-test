@@ -1,0 +1,68 @@
+
+
+.container{ 
+  background-color: rgb(52, 55, 54);
+    max-width: 1100px;
+    margin:0 auto;
+    height: 100vh;
+    overflow-y: scroll;
+  
+    border: 3px solid rgb(43, 41, 41);
+    border-radius: 20px;
+    padding:30px;
+    
+    button{
+        display:block;
+      
+    }
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.user{
+  display:flex;
+  align-items: center;
+  img{
+    width:30px;
+    height: 20px;
+  }
+}
+
+.content {
+  p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+
+    button{
+        position: relative;
+         
+    }
+  padding-bottom: 20px; /* добавьте отступ внизу */
+}
+
+/* стили для кнопок и элементов внутри контейнера */
+button {
+  margin-bottom: 10px; /* пространство между кнопками */
+}
+
+.text {
+  margin-left: 10px; /* отступ слева для текста */
+}
+
+
+.btn-item{
+  background-color: rgb(54, 54, 93);
+  border-radius: 20px;
+  padding:10px;
+ 
+  
+}
+
+
+
